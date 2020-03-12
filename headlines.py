@@ -89,7 +89,6 @@ features_train, features_test, labels_train, labels_test \
 lsvc = LinearSVC()
 # training the model
 lsvc.fit(features_train, labels_train)
-# getting the score of train and test data
 
 
 #=================#
